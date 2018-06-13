@@ -1,0 +1,24 @@
+// User
+export const SET_USER_DATA = "SET_USER_DATA";
+export const USER_IS_LOADING = "USER_IS_LOADING";
+export const SET_LIST_VIEW = "SET_LIST_VIEW";
+export const SET_LIST_SORT_BY = "SET_LIST_SORT_BY";
+
+// Notes
+export const SET_NOTES = "SET_NOTES";
+export const NOTES_HAS_ERRORED = "NOTES_HAS_ERRORED";
+export const NOTES_IS_LOADING = "NOTES_IS_LOADING";
+export const SET_CURRENT_NOTE_ID = "SET_CURRENT_NOTE_ID";
+export const SET_CURRENT_NOTE_STATE = "SET_CURRENT_NOTE_STATE";
+
+// Layout
+export const SET_MENU_STATE = "SET_MENU_STATE";
+export const SET_UNSPLASH = "SET_UNSPLASH";
+export const SET_LOGINIMG_ID = "SET_LOGINIMG_ID";
+export const SET_LOGIN_FORM_STATE = "SET_LOGIN_FORM_STATE";
+export const SET_ERROR_TEXT = "SET_ERROR_TEXT";
+export const SET_SUCCESS_TEXT = "SET_SUCCESS_TEXT";
+export const SET_LOGIN_INPUT_VAL = "SET_LOGIN_INPUT_VAL";
+export const SET_POPUP = "SET_POPUP";
+export const SET_CHANGE_NAME_INPUT_VAL = "SET_CHANGE_NAME_INPUT_VAL";
+export const SET_SEARCH_VAL = "SET_SEARCH_VAL";

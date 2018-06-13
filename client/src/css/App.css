@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+button:focus,
+input:focus {
+  outline: none;
+}
+
+/* Side Bar Transitions */
+
+.slideInFromRight-enter {
+  transform: translate(300px, 0);
+}
+.slideInFromRight-enter.slideInFromRight-enter-active {
+  transform: translate(0, 0);
+  transition: transform 300ms ease-in;
+}
+.slideInFromRight-exit {
+  transform: translate(0, 0);
+}
+.slideInFromRight-exit.slideInFromRight-exit-active {
+  transform: translate(300px, 0);
+  transition: transform 300ms ease-in;
+}
+
+.slideInFromLeft-enter {
+  transform: translate(-300px, 0);
+}
+.slideInFromLeft-enter.slideInFromLeft-enter-active {
+  transform: translate(0, 0);
+  transition: transform 300ms ease-in;
+}
+.slideInFromLeft-exit {
+  transform: translate(0, 0);
+}
+.slideInFromLeft-exit.slideInFromLeft-exit-active {
+  transform: translate(-300px, 0);
+  transition: transform 300ms ease-in;
+}
+
+/* END Side Bar Transitions */
+
+/*.fade-enter {
+  opacity: 0.01;
+}
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}*/

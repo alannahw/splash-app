@@ -1,0 +1,24 @@
+{
+  "name": "splash-app",
+  "version": "1.0.0",
+  "description": "creative writing app",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.6",
+    "nodemailer": "^4.6.4",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.17.3"
+  }
+}

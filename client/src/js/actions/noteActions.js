@@ -68,24 +68,3 @@ export function deleteNote(noteId) {
 export function setCurrentNoteState(noteObj) {
   return { type: types.SET_CURRENT_NOTE_STATE, noteObj };
 }
-export function emailNote(noteObj) {
-  return async dispatch => {
-    const data = {
-      ...noteObj,
-      recipient: "howe.alanna@gmail.com",
-      subject: "Hello World"
-    };
-    const response = await fetch("/api/email", {
-      method: "POST",
-      headers: { "Content-Type": "application/json;charset=UTF-8" },
-      body: JSON.stringify(data)
-    });
-    const body = await response.json();
-    if (!response.ok) {
-      throw Error(response.statusText);
-    } else {
-      //console.log(body);
-      //dispatch(fetchNotesData(noteObj.userId));
-    }
-  };
-}
